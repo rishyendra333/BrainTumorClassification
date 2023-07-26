@@ -53,5 +53,5 @@ To use the trained model for prediction, follow these steps:
 2. Install the required dependencies:
 `pip install -r requirements.txt`
 
-3. Run the prediction script with your input image (you can have your own image or use one from the provided data:
+3. Run the prediction script with your input image (you can have your own image or use one from the provided data:  
 `python predict.py /path/to/your/input_image.jpg`
