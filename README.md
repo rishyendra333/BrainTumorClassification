@@ -1,6 +1,6 @@
 # Brain Tumor Classification
 
-![Brain MRI](https://example.com/images/brain_mri.jpg)
+Author: Rishyendra Medamanuri
 
 Brain Tumor Classification is a deep learning project that aims to classify brain MRI images into four categories: glioma, meningioma, no tumor, and pituitary tumor. The project uses a Convolutional Neural Network (CNN) to achieve accurate classification results.
 
@@ -55,3 +55,23 @@ To use the trained model for prediction, follow these steps:
 
 3. Run the prediction script with your input image (you can have your own image or use one from the provided data:  
 `python predict.py /path/to/your/input_image.jpg`
+
+The script will load the trained model and provide the predicted tumor class label for the input image.
+
+## Dependencies
+
+The project requires the following dependencies:
+- TensorFlow
+- Keras
+- NumPy
+- OpenCV
+
+Install the required packages using the `requirements.txt` file:
+
+## Contributing
+
+Contributions to the project are welcome! If you find any issues or want to enhance the model's performance, feel free to open a pull request or submit an issue.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
