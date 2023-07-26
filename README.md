@@ -48,7 +48,10 @@ Further analysis and evaluation can be performed to explore the model's sensitiv
 To use the trained model for prediction, follow these steps:
 
 1. Clone the repository:
-
 `git clone https://github.com/your_username/Brain-Tumor-Classification.git`
 
-2. 
+2. Install the required dependencies:
+`pip install -r requirements.txt`
+
+3. Run the prediction script with your input image:
+`python predict.py /path/to/your/input_image.jpg`
